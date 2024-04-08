@@ -1,8 +1,14 @@
 def create_hashtable(size): # returns tuple(list,list)
-    pass
+    return ([None]*size, [None]*size)
+
 
 def resize_hashtable(hashtable,size,increase): #return hashtable,size
-   pass
+   if increase == True:
+       n = size*2
+       for i in 
+   
+   
+   
 def hash_function(key,size): #returns integer (Address)
     pass
 
